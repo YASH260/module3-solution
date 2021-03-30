@@ -50,12 +50,10 @@ body {
 }
 /* END HEADER */
 
-  h1{
-    text-align: center;
-    margin: 20px 20px;
-    color: black;
-    font-weight: bold;
-  }
+ .text-center{
+   color: black;
+ }  
+
   h3{
     color: black;
     text-align: center;
@@ -133,13 +131,8 @@ body {
       padding-top: 10px;
       font-size: 5vw; /* 1vw = 1% of viewport width */
     }
-    .navbar-brand p { /* Kosher cert */
-      font-size: .6em;
-      margin-top: 12px;
-    }
-    .navbar-brand p img { /* Star-K */
-      height: 20px;
-    }
+    
+   
   
     #collapsable-nav a { /* Collapsed nav menu text */
       font-size: 1.2em;
@@ -161,7 +154,7 @@ body {
     width: 95%;
     margin: 2.5%;
 
-  }
+  
   }
 
 }
